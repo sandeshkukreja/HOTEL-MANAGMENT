@@ -1,0 +1,155 @@
+<html>
+	<head>
+	<link href="css/style.css" rel="stylesheet">
+  <script type="text/javascript">
+    function Submit() {
+  alert("YOUR REQUEST IS BEING PROCCEED"); 
+  alert("YOUR ROOM HAS BEEN BOOKED");
+}
+  </script>
+	</head> 
+  <body>
+	<div class="header">
+				<div class="wrap">
+					<div class="header-top">
+					
+						<div class="logo">
+							<a href="index.html"><img src="images/gold.jpg" height="180" width="200"></a>
+						</div>
+						<div class="contact-info">
+							<p class="phone">Call us : <a href="#">00920000000000</a></p>
+							<p class="gpa">Email:Goldcoasthotels@gmail.com</a></p>
+						</div>
+						<div class="series"> </div>
+					</div>
+				</div>
+				<div class="header-top-border">
+					<div class="wrap">
+						<ul>
+							<li class="active"><a href="index.html">Home</a></li>
+							<li><a href="about.html">About</a></li>
+							<li><a href="services.html">Services</a></li>
+							<li><a href="room-booking.html">Room bookings</a></li>
+							<li><a href="contact.html">Contact</a></li>
+							<div class="series"> </div>
+						</ul>
+					</div>
+				</div>
+			</div>
+	<div class="col span_2_ef_3">
+	<div class="contact-form">
+	<div class="skk">
+	<h1> <b>Room Reservations</b> </h1>
+	</div>
+	<form onsubmit="Submit()">
+	<div>
+  <label for="customername">Please Enter Your Name</label>
+  <label for="customername">
+    <input type="text" name="customername" required="" placeholder="NAME">
+    <span ><i></i></span>  
+  </label>
+	</div>
+	<div>
+    <label for="customeremail">Email Address</label>
+      <input type="text" name="customeremail" required="" placeholder="NAME@something.com">
+      <span><i></i></span>  
+    </label>
+	</div>
+  <div>
+    <label for="customerelephone">Telephone/Mobile</label>
+    <label for="customerelephone">
+	
+      <input type="text" name="customerelephone" required="" placeholder="Telephone/Moble Number">
+      <span ><i></i></span>  
+    </label>
+	
+  </div>
+ 
+<div>
+  <div>
+    <label for="adults">Number of Adults</label>
+    <label for="adults">
+      <input type="number"name="adults"required="" placeholder="Number of adults">
+      <span><i></i></span>  
+    </label>
+  </div>
+   
+  <div>
+    <label for="children">Number of Children</label>
+    <label for="children">
+      <input type="number" name="children" required="" placeholder="Number of children">
+      <span ><i></i></span>  
+    </label>
+  </div>
+</div>
+
+<div class="a" style="width:300px;">
+Room type:
+  <select>
+    <option value="0">Select room:</option>
+    <option value="1">PRESIDENTIAL TWO BEDROOM SUITE</option>
+    <option value="2">DELUXE ONE BEDROOM SUITE</option>
+    <option value="3">GOLD THREE BEDROOM FAMILY SUITE</option>
+    <option value="4">SKY ONE BEDROOM SUITE</option>
+    <option value="5">DIPLOMATIC THREE BEDROOM SUITE</option>
+    <option value="6">CLUB ONE BEDROOM SUITE</option>
+  </select>
+</div>
+ 
+<div>
+  <div>
+    <label for="checkin">Check-in Date</label>
+    <label for="checkin">
+      <input type="text" name="checkin" required="" placeholder="mm/dd/yyyy">
+      <span ><i></i></span>  
+    </label>
+  </div>
+   
+  <div>
+    <label for="checkout">Check-out Date</label>
+    <label for="checkout">
+      <input type="text" name="checkout" required="" placeholder="mm/dd/yyyy">
+      <span ><i></i></span>  
+    </label>
+  </div>
+</div>
+ 
+<div>
+<span>Please answer these questions for a pleasant stay</span>
+</div>
+ 
+<div>   
+      <label>
+        <input type="checkbox">
+        <span data-on="YES" data-off="NO"></span>
+        <span>Will you be bringing a pet?</span>
+      </label>
+    
+      <label>
+        <input type="checkbox" name="switch2" value="switch2">
+        <span data-on="YES" data-off="NO"></span>
+        <span>Do you need us to pick you up?</span>
+      </label>              
+  </div>
+ 
+<div>
+<span><label>Anything else we should know about?</label></span>
+<span><textarea name="userMsg"> </textarea></span>
+    <span><i></i></span>
+    <span> 
+      <strong>Please:</strong> Be as descriptive as possible
+    </span>   
+  </label>
+  <div>
+ 		<span><input type="submit" value="Submit"></span>
+</div>
+</form>
+</div>
+</div>
+<div class="right">
+<p>&copy Gold Coast Hotels 2022</p>
+</div>
+</div>
+</div>
+</body>
+</html>
