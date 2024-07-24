@@ -1,4 +1,4 @@
-Sandesh kukreja                                                    CS211126
+Sandesh kukreja                                                    
  #          Hotel-Management-System
 
 This project is designed on basis of hotel management system. Here guest will be offered multiple types of rooms to choose from. In which I have include multiple types of facilities for customers. Like gym, swimming pools, conference hall, SPA pool side bar and so many other things.  Which will be available for free of cost after room booking. In which hotel will serve all kind of services 
